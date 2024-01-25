@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-25T11:58:42 CST" name="Suite" finished-at="2024-01-25T11:59:45 CST" duration-ms="63439">
+    <groups>
+      <group name="Smoke">
+        <method signature="eCommerce_TC_4_Hybrid.FillForm(java.util.HashMap)[pri:0, instance:org.coeqacourse.eCommerce_TC_4_Hybrid@239a307b]" name="FillForm" class="org.coeqacourse.eCommerce_TC_4_Hybrid"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-01-25T11:58:42 CST" name="End to end Framework Test" finished-at="2024-01-25T11:59:09 CST" duration-ms="27356">
+      <class name="org.coeqacourse.eCommerce_TC_4_Hybrid">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.coeqacourse.eCommerce_TC_4_Hybrid@239a307b]" started-at="2024-01-25T11:58:42 CST" name="ConfigureAppium" finished-at="2024-01-25T11:58:50 CST" duration-ms="8273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:org.coeqacourse.eCommerce_TC_4_Hybrid@239a307b]" started-at="2024-01-25T11:58:50 CST" name="preSetup" finished-at="2024-01-25T11:58:50 CST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="FillForm(java.util.HashMap)[pri:0, instance:org.coeqacourse.eCommerce_TC_4_Hybrid@239a307b]" started-at="2024-01-25T11:58:50 CST" name="FillForm" data-provider="getData" finished-at="2024-01-25T11:59:09 CST" duration-ms="18510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{gender=Female, name=My Name, country=Australia}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.coeqacourse.eCommerce_TC_4_Hybrid@239a307b]" started-at="2024-01-25T11:59:09 CST" name="tearDown" finished-at="2024-01-25T11:59:09 CST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.coeqacourse.eCommerce_TC_4_Hybrid -->
+    </test> <!-- End to end Framework Test -->
+    <test started-at="2024-01-25T11:59:09 CST" name="Error Validations Test" finished-at="2024-01-25T11:59:45 CST" duration-ms="35814">
+      <class name="org.coeqacourse.eCommerce_TC_01">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.coeqacourse.eCommerce_TC_01@4f0f2942]" started-at="2024-01-25T11:59:10 CST" name="ConfigureAppium" finished-at="2024-01-25T11:59:17 CST" duration-ms="7458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:org.coeqacourse.eCommerce_TC_01@4f0f2942]" started-at="2024-01-25T11:59:17 CST" name="preSetup" finished-at="2024-01-25T11:59:17 CST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="FillForm_ErrorValidation()[pri:0, instance:org.coeqacourse.eCommerce_TC_01@4f0f2942]" started-at="2024-01-25T11:59:17 CST" name="FillForm_ErrorValidation" finished-at="2024-01-25T11:59:32 CST" duration-ms="15125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm_ErrorValidation -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:org.coeqacourse.eCommerce_TC_01@4f0f2942]" started-at="2024-01-25T11:59:32 CST" name="preSetup" finished-at="2024-01-25T11:59:32 CST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="FillForm_PositiveFlow()[pri:0, instance:org.coeqacourse.eCommerce_TC_01@4f0f2942]" started-at="2024-01-25T11:59:32 CST" name="FillForm_PositiveFlow" finished-at="2024-01-25T11:59:45 CST" duration-ms="12837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm_PositiveFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.coeqacourse.eCommerce_TC_01@4f0f2942]" started-at="2024-01-25T11:59:45 CST" name="tearDown" finished-at="2024-01-25T11:59:45 CST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.coeqacourse.eCommerce_TC_01 -->
+    </test> <!-- Error Validations Test -->
+  </suite> <!-- Suite -->
+</testng-results>
